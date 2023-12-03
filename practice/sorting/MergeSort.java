@@ -1,4 +1,4 @@
-package com.aoc.practice.sorting;
+package practice.sorting;
 
 public class MergeSort {
 

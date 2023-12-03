@@ -79,10 +79,7 @@ public class Day2Part2 {
             if (inputLine == null || inputLine.isEmpty()) {
                 break;
             }
-            String gameString = inputLine.split(":")[0];
             String cubesGrabString = inputLine.split(":")[1];
-
-            int gameNumber = Integer.parseInt(gameString.split(" ")[1]);
             String[] grabArray = cubesGrabString.split(";");
 
             int maxRed = 0, maxGreen = 0, maxBlue = 0;
